@@ -1,5 +1,5 @@
 ---
-page: layout
+layout: page
 title: How to learn this stuff
 ---
 
