@@ -1,0 +1,9 @@
+{
+  "name": "precourse_site",
+  "version": "0.1.0",
+  "description": "Precourse site",
+  "scripts": {
+    "preprocess": "node util/preprocess.js; git status;"
+  },
+  "license": "MIT"
+}
