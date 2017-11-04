@@ -41,6 +41,14 @@ There's a ton of detail in every topic and every tool, but in practical terms yo
 
 Yeah JavaScript has [typed arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) (what, really?) and [WeakMaps](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap) and [Symbols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol) and stuff. That stuff can be cool for more-advanced things, but right now YAGNI (you ain't gonna need it).
 
+How can you tell what detail you'll need and what you won't?
+
+1. By reviewing what you actually needed to know or look up in order to build stuff, in the past.
+1. By writing more code (via staff guidance on what to choose), and again closely observing what you need to know or look up.
+1. By learning from staff-provided / staff-curated materials, talks and exercises that are meant to stretch your boundaries towards a professional scope of work.
+
+The stuff that does not naturally come up in the above -- ignore for now.
+
 ## Become fluent in a small, practical subset of your chosen tools
 
 If you don't remember the basics about your tools, and have to keep googling tons of basic stuff, you can't solve anything efficiently.
