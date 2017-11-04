@@ -66,9 +66,16 @@ Given the above problem statement, this is a real example of code produced by a 
 
 ## What's wrong with this solution?
 
-Simply put, the above solution is hard to read.
+### Readability
+The above solution is a bit hard to read.
 
-There is too much going on in the function body. It would be a lot easier to understand if we factored out a couple of helper functions that each did only one small thing.
+There is too much going on in the function body. It would be a lot easier to understand if we factored out a couple of helper functions that each did only one small thing. The names of those functions would give us big hints about what the code is doing.
+
+### Testability
+
+The above solution is harder to test than it should be.
+
+When a longer chain of processing happens inline within one function body, testing the processing is an all-or-nothing proposition. Whereas each time you factor out a subset of that processing into a helper function, you make it much easier to test that part of the code.
 
 Upon seeing the above code, a seasoned programmer would consider some refactoring like this:
 

@@ -45,7 +45,7 @@ the right abstractions.
 
 ## Chunking: Such detail. Very memory.
 
-On the other hands, sometimes you will need to work with lots of details and large amounts of information. And in those cases, you may need not only to think about granular detail, but also to remember and act upon it effectively.
+On the other hand, sometimes you will need to work with lots of details and large amounts of information. And in those cases, you may need not only to think about granular detail, but also to remember and act upon it effectively.
 
 You’ve heard the thing about human short-term memory only being able to handle a few items at a time, right?
 
@@ -55,18 +55,19 @@ Organizing lots of information into smaller, digestable nuggets, and then associ
 
 As you might guess, this action of cognitively organizing information into small bits and associated categories is called “chunking”. And in a field of practice -- say, software engineering -- experienced professionals tend to be able to create and process larger chunks than beginners can.
 
-There isn't strong evidence that deliberating trying to improve your chunking will accelerate your path to expertise. However, there *is* strong evidence that more organized, connected, and easily recalled knowledge helps people with performance in a field. So, here's a tip.
-
 Practice putting what you learn into related functional categories (not linguistic categories such as 'they all start with the letter Q'), like so:
 
 **Node.js**
-* backend
-* server
-* modules
-* `module.exports`
-* `require`
-* `http`
-* server.listen(port, callback)
+* v8 engine
+* Common JS modules
+  * `module.exports`
+  * `require`
+* built-in networking libraries
+  * `http`
+  * `server.listen(port, callback)`
+* global object is not `Window` as in browsers
+
+
 
 ---
-[next](../08-problem-decomposition)
+[next](../problem-decomposition)

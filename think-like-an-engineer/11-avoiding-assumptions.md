@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Avoiding assumptions "
+title: "Avoiding assumptions"
 ---
 
 Misunderstanding is a core aspect of the human condition.
