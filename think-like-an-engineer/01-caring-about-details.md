@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Think like an engineer 01: Caring about the details"
+title: "Caring about the details"
 ---
 
 An engineer is detail-oriented, period.

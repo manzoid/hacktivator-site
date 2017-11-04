@@ -29,4 +29,5 @@ You're not _yet_ extending large production apps with live audiences. That will 
 But why not start thinking along these lines now?
 
 ---
-[next](../01-caring-about-details)
+[next](01-caring-about-details)
+
