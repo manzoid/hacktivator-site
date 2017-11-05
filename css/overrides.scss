@@ -54,7 +54,7 @@ summary:focus {
 }
 
 details > summary::after {
-  content: 'Click';
+  content: ''; // Click when ready to begin
 }
 
 details[open] > summary::after {
